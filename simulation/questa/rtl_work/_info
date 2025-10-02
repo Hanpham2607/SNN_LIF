@@ -1,0 +1,233 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Hanpham/BK/THUC TAP/TTNT_1/simulation/questa
+T_opt
+!s110 1749021597
+VmCUX2I[H;`Hi<MXJ<mCJY1
+04 9 4 work tb_TTNT_1 fast 0
+=1-745d22d0430c-683ff39c-35b-2c08
+R0
+!s12b OEM100
+!s124 OEM10U8 
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vCas_adder
+2C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1749021584
+!i10b 1
+!s100 3BJOF6D;CaLdfIP2dn`fW2
+ImASg0REY[i?PbCYTkmQ]Q1
+S1
+R1
+w1748995784
+8C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv
+FC:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv
+!i122 8
+L0 1 139
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1749021584.000000
+!s107 C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv|
+!s90 -reportprogress|300|-work|work|C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@cas_adder
+vControl
+2C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv
+R3
+Z7 !s110 1749021585
+!i10b 1
+!s100 2WGDbNDG4nK4J:gG:d_SY2
+Ik;@=AJLSenmInW>k]6g163
+S1
+R1
+w1748996176
+8C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv
+FC:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv
+!i122 16
+L0 1 66
+R4
+R5
+r1
+!s85 0
+31
+Z8 !s108 1749021585.000000
+!s107 C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv|
+!s90 -reportprogress|300|-work|work|C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv|
+!i113 0
+R6
+R2
+n@control
+vIn_mem
+2C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv
+R3
+R7
+!i10b 1
+!s100 3B?>]LNbUi]>lW8E0L^YB1
+Ic`5f=6KJKLnJZ1_i1FB[l3
+S1
+R1
+w1748843169
+8C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv
+FC:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv
+!i122 17
+Z9 L0 1 27
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv|
+!s90 -reportprogress|300|-work|work|C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv|
+!i113 0
+R6
+R2
+n@in_mem
+vLIF
+2C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv
+R3
+R7
+!i10b 1
+!s100 lH=oi<?8=HmK5ZZQ<gogB1
+I6;:TXj^Bm`>cP9902YlEz0
+S1
+R1
+w1748998153
+8C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv
+FC:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv
+!i122 18
+L0 1 77
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv|
+!s90 -reportprogress|300|-work|work|C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv|
+!i113 0
+R6
+R2
+n@l@i@f
+vOut_mem
+2C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv
+R3
+R7
+!i10b 1
+!s100 lhjE;JAHoM^j^9RXJjScG3
+IG:@V[CB3UP^bFf8Sa9[Jo0
+S1
+R1
+w1748998823
+8C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv
+FC:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv
+!i122 19
+L0 1 22
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv|
+!s90 -reportprogress|300|-work|work|C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv|
+!i113 0
+R6
+R2
+n@out_mem
+vtb_TTNT_1
+2C:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv
+R3
+R7
+!i10b 1
+!s100 97jgI?CgZS7``b>CHe>4Q1
+Ic4[jBYC7?VIl0:fOf_W4;2
+S1
+R1
+w1749021556
+8C:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv
+FC:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv
+!i122 20
+L0 1 52
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 C:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv|
+!s90 -reportprogress|300|-work|work|C:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv|
+!i113 0
+R6
+R2
+ntb_@t@t@n@t_1
+vTTNT_1
+2C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv
+R3
+R7
+!i10b 1
+!s100 9H>:kKRQ]R9PNEMNAjZ9C1
+Im^lGfWV4HEb<1Xc;DSa?]3
+S1
+R1
+w1748838625
+8C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv
+FC:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv
+!i122 21
+L0 1 80
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv|
+!s90 -reportprogress|300|-work|work|C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv|
+!i113 0
+R6
+R2
+n@t@t@n@t_1
+vWe_mem
+2C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv
+R3
+R7
+!i10b 1
+!s100 g@E:TSNbFfX3eK023ei_P3
+IclzzcJ?fMlhj530b]QXKg2
+S1
+R1
+w1748787440
+8C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv
+FC:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv
+!i122 22
+R9
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv|
+!s90 -reportprogress|300|-work|work|C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv|
+!i113 0
+R6
+R2
+n@we_mem

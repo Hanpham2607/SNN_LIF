@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at LIF.sv(10): object "spike" differs only in case from object "SPIKE" in the same scope File: C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv Line: 10
+Warning (10268): Verilog HDL information at Out_mem.sv(9): always construct contains both blocking and non-blocking assignments File: C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv Line: 9
+Warning (10268): Verilog HDL information at Control.sv(28): always construct contains both blocking and non-blocking assignments File: C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv Line: 28
+Warning (10268): Verilog HDL information at Cas_adder.sv(62): always construct contains both blocking and non-blocking assignments File: C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv Line: 62

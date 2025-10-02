@@ -1,0 +1,421 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do TTNT_1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying c:/intelfpga/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Hanpham/BK/THUC\ TAP/TTNT_1 {C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:35 on Jun 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Hanpham/BK/THUC TAP/TTNT_1" C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv 
+# -- Compiling module We_mem
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv(5): (vlog-13314) Defaulting port 'weight_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	We_mem
+# End time: 14:19:35 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+C:/Hanpham/BK/THUC\ TAP/TTNT_1 {C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:35 on Jun 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Hanpham/BK/THUC TAP/TTNT_1" C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv 
+# -- Compiling module In_mem
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv(5): (vlog-13314) Defaulting port 'data_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	In_mem
+# End time: 14:19:35 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+C:/Hanpham/BK/THUC\ TAP/TTNT_1 {C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:35 on Jun 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Hanpham/BK/THUC TAP/TTNT_1" C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv 
+# -- Compiling module TTNT_1
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(5): (vlog-13314) Defaulting port 'input_pixel' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(6): (vlog-13314) Defaulting port 'input_weight' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	TTNT_1
+# End time: 14:19:35 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+C:/Hanpham/BK/THUC\ TAP/TTNT_1 {C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:35 on Jun 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Hanpham/BK/THUC TAP/TTNT_1" C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv 
+# -- Compiling module LIF
+# 
+# Top level modules:
+# 	LIF
+# End time: 14:19:35 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Hanpham/BK/THUC\ TAP/TTNT_1 {C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:35 on Jun 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Hanpham/BK/THUC TAP/TTNT_1" C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv 
+# -- Compiling module Out_mem
+# 
+# Top level modules:
+# 	Out_mem
+# End time: 14:19:35 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Hanpham/BK/THUC\ TAP/TTNT_1 {C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:35 on Jun 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Hanpham/BK/THUC TAP/TTNT_1" C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv 
+# -- Compiling module Control
+# 
+# Top level modules:
+# 	Control
+# End time: 14:19:35 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Hanpham/BK/THUC\ TAP/TTNT_1 {C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:36 on Jun 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Hanpham/BK/THUC TAP/TTNT_1" C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv 
+# -- Compiling module Cas_adder
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv(5): (vlog-13314) Defaulting port 'in_add' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv(6): (vlog-13314) Defaulting port 'we_add' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	Cas_adder
+# End time: 14:19:36 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# 
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:44 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv 
+# -- Compiling module Cas_adder
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv(5): (vlog-13314) Defaulting port 'in_add' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv(6): (vlog-13314) Defaulting port 'we_add' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	Cas_adder
+# End time: 14:19:44 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:44 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv 
+# -- Compiling module Cas_adder
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv(5): (vlog-13314) Defaulting port 'in_add' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv(6): (vlog-13314) Defaulting port 'we_add' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	Cas_adder
+# End time: 14:19:44 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:44 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv 
+# -- Compiling module Control
+# 
+# Top level modules:
+# 	Control
+# End time: 14:19:44 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:44 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv 
+# -- Compiling module In_mem
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv(5): (vlog-13314) Defaulting port 'data_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	In_mem
+# End time: 14:19:44 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:44 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv 
+# -- Compiling module LIF
+# 
+# Top level modules:
+# 	LIF
+# End time: 14:19:44 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:44 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv 
+# -- Compiling module Out_mem
+# 
+# Top level modules:
+# 	Out_mem
+# End time: 14:19:44 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:44 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv 
+# -- Compiling module tb_TTNT_1
+# 
+# Top level modules:
+# 	tb_TTNT_1
+# End time: 14:19:44 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:44 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv 
+# -- Compiling module TTNT_1
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(5): (vlog-13314) Defaulting port 'input_pixel' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(6): (vlog-13314) Defaulting port 'input_weight' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	TTNT_1
+# End time: 14:19:44 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:45 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv 
+# -- Compiling module We_mem
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv(5): (vlog-13314) Defaulting port 'weight_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	We_mem
+# End time: 14:19:45 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:45 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/Control.sv 
+# -- Compiling module Control
+# 
+# Top level modules:
+# 	Control
+# End time: 14:19:45 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:45 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv 
+# -- Compiling module In_mem
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv(5): (vlog-13314) Defaulting port 'data_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	In_mem
+# End time: 14:19:45 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:45 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/LIF.sv 
+# -- Compiling module LIF
+# 
+# Top level modules:
+# 	LIF
+# End time: 14:19:45 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:45 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/Out_mem.sv 
+# -- Compiling module Out_mem
+# 
+# Top level modules:
+# 	Out_mem
+# End time: 14:19:45 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:45 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv 
+# -- Compiling module tb_TTNT_1
+# 
+# Top level modules:
+# 	tb_TTNT_1
+# End time: 14:19:45 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:45 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv 
+# -- Compiling module TTNT_1
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(5): (vlog-13314) Defaulting port 'input_pixel' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(6): (vlog-13314) Defaulting port 'input_weight' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	TTNT_1
+# End time: 14:19:45 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vlog -reportprogress 300 -work work {C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:19:45 on Jun 04,2025
+# vlog -reportprogress 300 -work work C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv 
+# -- Compiling module We_mem
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv(5): (vlog-13314) Defaulting port 'weight_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	We_mem
+# End time: 14:19:45 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -gui -l msim_transcript work.tb_TTNT_1 -voptargs=+acc
+# vsim -gui -l msim_transcript work.tb_TTNT_1 -voptargs="+acc" 
+# Start time: 14:19:56 on Jun 04,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv(5): (vopt-13314) Defaulting port 'in_add' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/Cas_adder.sv(6): (vopt-13314) Defaulting port 'we_add' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Note: (vopt-143) Recognized 1 FSM in module "Cas_adder(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Control(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "LIF(fast)".
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(5): (vopt-13314) Defaulting port 'input_pixel' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(6): (vopt-13314) Defaulting port 'input_weight' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(48): (vopt-2685) [TFMPC] - Too few port connections for 'input_memory'.  Expected 6, found 5.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(48): (vopt-2718) [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(56): (vopt-2685) [TFMPC] - Too few port connections for 'weight'.  Expected 6, found 5.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(56): (vopt-2718) [TFMPC] - Missing connection for port 'weight_out'.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(64): (vopt-2685) [TFMPC] - Too few port connections for 'ctrl'.  Expected 15, found 13.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(64): (vopt-2718) [TFMPC] - Missing connection for port 'out_valid'.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv(64): (vopt-2718) [TFMPC] - Missing connection for port 'sum_data'.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/We_mem.sv(5): (vopt-13314) Defaulting port 'weight_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Hanpham/BK/THUC TAP/TTNT_1/In_mem.sv(5): (vopt-13314) Defaulting port 'data_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=14.
+# Loading sv_std.std
+# Loading work.tb_TTNT_1(fast)
+# Loading work.TTNT_1(fast)
+# Loading work.Cas_adder(fast)
+# Loading work.LIF(fast)
+# Loading work.Out_mem(fast)
+# Loading work.In_mem(fast)
+# Loading work.We_mem(fast)
+# Loading work.Control(fast)
+run -all
+# time=5 | input_pixel=0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | result=0 | input_weight='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} 
+# time=15 | input_pixel=0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | result=0 | input_weight='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} 
+# time=20 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=25 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=35 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=45 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=55 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=65 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=75 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=85 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=95 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=105 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=115 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=125 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=135 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=145 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=155 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=165 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=175 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=185 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=195 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=205 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=215 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=225 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=235 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=245 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=255 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=265 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=275 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=285 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=295 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=305 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=315 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=325 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=335 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=345 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=355 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=365 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=375 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=385 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=395 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=405 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=415 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=425 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=435 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=445 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=455 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=465 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=475 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=485 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=495 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=1 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=505 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=515 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=525 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=535 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=545 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=555 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=565 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=575 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=585 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=595 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=605 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=615 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=625 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=635 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=645 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=655 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=665 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=675 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=685 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=695 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=705 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=715 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=725 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=735 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=745 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=755 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=765 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=775 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=785 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=795 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=805 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=815 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=825 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=835 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=845 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=855 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=865 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=875 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=885 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=895 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=905 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=915 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=925 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=935 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=945 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=955 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=965 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=975 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=985 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=995 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=1005 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=1015 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=1025 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=1035 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=1045 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=1055 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# time=1065 | input_pixel=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 | result=0 | input_weight='{32, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2} 
+# ** Note: $finish    : C:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv(44)
+#    Time: 1070 ns  Iteration: 0  Instance: /tb_TTNT_1
+# 1
+# Break in Module tb_TTNT_1 at C:/Hanpham/BK/THUC TAP/TTNT_1/tb_TTNT.sv line 44
+# End time: 14:20:43 on Jun 04,2025, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 14

@@ -1,0 +1,40 @@
+module Control (
+    input  logic clk,
+    input  logic rst,
+    output logic load_input,
+    output logic load_weight,
+    output logic write_output
+);
+    typedef enum logic [1:0] {IDLE, LOAD, PROCESS, WRITE} state_t;
+    state_t state;
+
+    always_ff @(posedge clk or posedge rst) begin
+        if (rst) begin
+            state <= IDLE;
+            load_input <= 0;
+            load_weight <= 0;
+            write_output <= 0;
+        end else begin
+            case (state)
+                IDLE: begin
+                    load_input <= 1;
+                    load_weight <= 1;
+                    state <= LOAD;
+                end
+                LOAD: begin
+                    load_input <= 0;
+                    load_weight <= 0;
+                    state <= PROCESS;
+                end
+                PROCESS: begin
+                    write_output <= 1;
+                    state <= WRITE;
+                end
+                WRITE: begin
+                    write_output <= 0;
+                    state <= IDLE;
+                end
+            endcase
+        end
+    end
+endmodule

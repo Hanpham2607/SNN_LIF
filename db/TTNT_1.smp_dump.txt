@@ -1,0 +1,31 @@
+
+State Machine - |TTNT_1|Control:ctrl|state
+Name state.PHASE_LIF state.PHASE_ADD state.PHASE_MEM state.IDLE state.PHASE_OUT 
+state.IDLE 0 0 0 0 0 
+state.PHASE_MEM 0 0 1 1 0 
+state.PHASE_ADD 0 1 0 1 0 
+state.PHASE_LIF 1 0 0 1 0 
+state.PHASE_OUT 0 0 0 1 1 
+
+State Machine - |TTNT_1|LIF:neuron|state
+Name state.WAIT state.SPIKE state.ACC state.IDLE 
+state.IDLE 0 0 0 0 
+state.ACC 0 0 1 1 
+state.SPIKE 0 1 0 1 
+state.WAIT 1 0 0 1 
+
+State Machine - |TTNT_1|Cas_adder:adder|A
+Name A.ODD A.OUT_ADD A.EVEN 
+A.ODD 0 0 0 
+A.EVEN 1 0 1 
+A.OUT_ADD 1 1 0 
+
+State Machine - |TTNT_1|Cas_adder:adder|state
+Name state.WAIT state.DONE state.ODD_CALC state.EVEN_CALC state.ADD_STAGE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 
+state.LOAD 0 0 0 0 0 1 1 
+state.ADD_STAGE 0 0 0 0 1 0 1 
+state.EVEN_CALC 0 0 0 1 0 0 1 
+state.ODD_CALC 0 0 1 0 0 0 1 
+state.DONE 0 1 0 0 0 0 1 
+state.WAIT 1 0 0 0 0 0 1 

@@ -1,0 +1,14 @@
+module We_mem (
+    input  logic             clk,
+    input  logic             rst,
+    input  logic             load,
+    input  logic [4095:0]     weight_in,
+    output logic [4095:0]     weight_out
+);
+    always_ff @(posedge clk or posedge rst) begin
+        if (rst)
+            weight_out <= '0;
+        else if (load)
+            weight_out <= weight_in;
+    end
+endmodule

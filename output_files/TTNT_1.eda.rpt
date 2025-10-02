@@ -1,0 +1,350 @@
+EDA Netlist Writer report for TTNT_1
+Mon Jun  2 11:33:47 2025
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2024  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Mon Jun  2 11:33:47 2025 ;
+; Revision Name             ; TTNT_1                                ;
+; Top-level Entity Name     ; TTNT_1                                ;
+; Family                    ; Cyclone V                             ;
+; Simulation Files Creation ; Successful                            ;
++---------------------------+---------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                             ;
++---------------------------------------------------------------------------------------------------+-----------------------------+
+; Option                                                                                            ; Setting                     ;
++---------------------------------------------------------------------------------------------------+-----------------------------+
+; Tool Name                                                                                         ; Questa Intel FPGA (Verilog) ;
+; Generate functional simulation netlist                                                            ; On                          ;
+; Truncate long hierarchy paths                                                                     ; Off                         ;
+; Map illegal HDL characters                                                                        ; Off                         ;
+; Flatten buses into individual nodes                                                               ; Off                         ;
+; Maintain hierarchy                                                                                ; Off                         ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                         ;
+; Enable glitch filtering                                                                           ; Off                         ;
+; Do not write top level VHDL entity                                                                ; Off                         ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                         ;
+; Architecture name in VHDL output netlist                                                          ; structure                   ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                         ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                         ;
++---------------------------------------------------------------------------------------------------+-----------------------------+
+
+
++-----------------------------------------------------------+
+; Simulation Generated Files                                ;
++-----------------------------------------------------------+
+; Generated Files                                           ;
++-----------------------------------------------------------+
+; C:/Hanpham/BK/THUC TAP/TTNT_1/simulation/questa/TTNT_1.vo ;
++-----------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+    Info: Processing started: Mon Jun  2 11:33:46 2025
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off TTNT_1 -c TTNT_1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204001): Port "input_weight[14][15]" is changed into "input_weight_14_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][15]" is changed into "input_weight_13_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][15]" is changed into "input_weight_12_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][15]" is changed into "input_weight_11_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][15]" is changed into "input_weight_10_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][15]" is changed into "input_weight_9_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][15]" is changed into "input_weight_8_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][15]" is changed into "input_weight_7_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][15]" is changed into "input_weight_6_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][15]" is changed into "input_weight_5_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][15]" is changed into "input_weight_4_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][15]" is changed into "input_weight_3_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][15]" is changed into "input_weight_2_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][15]" is changed into "input_weight_1_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][15]" is changed into "input_weight_0_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][14]" is changed into "input_weight_14_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][14]" is changed into "input_weight_13_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][14]" is changed into "input_weight_12_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][14]" is changed into "input_weight_11_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][14]" is changed into "input_weight_10_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][14]" is changed into "input_weight_9_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][14]" is changed into "input_weight_8_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][14]" is changed into "input_weight_7_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][14]" is changed into "input_weight_6_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][14]" is changed into "input_weight_5_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][14]" is changed into "input_weight_4_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][14]" is changed into "input_weight_3_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][14]" is changed into "input_weight_2_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][14]" is changed into "input_weight_1_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][14]" is changed into "input_weight_0_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][13]" is changed into "input_weight_14_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][13]" is changed into "input_weight_13_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][13]" is changed into "input_weight_12_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][13]" is changed into "input_weight_11_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][13]" is changed into "input_weight_10_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][13]" is changed into "input_weight_9_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][13]" is changed into "input_weight_8_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][13]" is changed into "input_weight_7_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][13]" is changed into "input_weight_6_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][13]" is changed into "input_weight_5_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][13]" is changed into "input_weight_4_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][13]" is changed into "input_weight_3_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][13]" is changed into "input_weight_2_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][13]" is changed into "input_weight_1_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][13]" is changed into "input_weight_0_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][12]" is changed into "input_weight_14_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][12]" is changed into "input_weight_13_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][12]" is changed into "input_weight_12_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][12]" is changed into "input_weight_11_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][12]" is changed into "input_weight_10_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][12]" is changed into "input_weight_9_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][12]" is changed into "input_weight_8_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][12]" is changed into "input_weight_7_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][12]" is changed into "input_weight_6_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][12]" is changed into "input_weight_5_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][12]" is changed into "input_weight_4_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][12]" is changed into "input_weight_3_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][12]" is changed into "input_weight_2_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][12]" is changed into "input_weight_1_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][12]" is changed into "input_weight_0_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][11]" is changed into "input_weight_14_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][11]" is changed into "input_weight_13_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][11]" is changed into "input_weight_12_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][11]" is changed into "input_weight_11_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][11]" is changed into "input_weight_10_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][11]" is changed into "input_weight_9_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][11]" is changed into "input_weight_8_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][11]" is changed into "input_weight_7_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][11]" is changed into "input_weight_6_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][11]" is changed into "input_weight_5_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][11]" is changed into "input_weight_4_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][11]" is changed into "input_weight_3_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][11]" is changed into "input_weight_2_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][11]" is changed into "input_weight_1_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][11]" is changed into "input_weight_0_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][10]" is changed into "input_weight_14_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][10]" is changed into "input_weight_13_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][10]" is changed into "input_weight_12_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][10]" is changed into "input_weight_11_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][10]" is changed into "input_weight_10_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][10]" is changed into "input_weight_9_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][10]" is changed into "input_weight_8_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][10]" is changed into "input_weight_7_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][10]" is changed into "input_weight_6_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][10]" is changed into "input_weight_5_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][10]" is changed into "input_weight_4_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][10]" is changed into "input_weight_3_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][10]" is changed into "input_weight_2_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][10]" is changed into "input_weight_1_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][10]" is changed into "input_weight_0_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][9]" is changed into "input_weight_14_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][9]" is changed into "input_weight_13_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][9]" is changed into "input_weight_12_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][9]" is changed into "input_weight_11_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][9]" is changed into "input_weight_10_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][9]" is changed into "input_weight_9_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][9]" is changed into "input_weight_8_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][9]" is changed into "input_weight_7_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][9]" is changed into "input_weight_6_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][9]" is changed into "input_weight_5_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][9]" is changed into "input_weight_4_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][9]" is changed into "input_weight_3_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][9]" is changed into "input_weight_2_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][9]" is changed into "input_weight_1_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][9]" is changed into "input_weight_0_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][8]" is changed into "input_weight_14_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][8]" is changed into "input_weight_13_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][8]" is changed into "input_weight_12_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][8]" is changed into "input_weight_11_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][8]" is changed into "input_weight_10_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][8]" is changed into "input_weight_9_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][8]" is changed into "input_weight_8_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][8]" is changed into "input_weight_7_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][8]" is changed into "input_weight_6_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][8]" is changed into "input_weight_5_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][8]" is changed into "input_weight_4_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][8]" is changed into "input_weight_3_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][8]" is changed into "input_weight_2_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][8]" is changed into "input_weight_1_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][8]" is changed into "input_weight_0_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][7]" is changed into "input_weight_14_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][7]" is changed into "input_weight_13_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][7]" is changed into "input_weight_12_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][7]" is changed into "input_weight_11_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][7]" is changed into "input_weight_10_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][7]" is changed into "input_weight_9_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][7]" is changed into "input_weight_8_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][7]" is changed into "input_weight_7_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][7]" is changed into "input_weight_6_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][7]" is changed into "input_weight_5_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][7]" is changed into "input_weight_4_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][7]" is changed into "input_weight_3_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][7]" is changed into "input_weight_2_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][7]" is changed into "input_weight_1_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][7]" is changed into "input_weight_0_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][6]" is changed into "input_weight_14_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][6]" is changed into "input_weight_13_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][6]" is changed into "input_weight_12_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][6]" is changed into "input_weight_11_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][6]" is changed into "input_weight_10_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][6]" is changed into "input_weight_9_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][6]" is changed into "input_weight_8_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][6]" is changed into "input_weight_7_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][6]" is changed into "input_weight_6_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][6]" is changed into "input_weight_5_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][6]" is changed into "input_weight_4_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][6]" is changed into "input_weight_3_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][6]" is changed into "input_weight_2_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][6]" is changed into "input_weight_1_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][6]" is changed into "input_weight_0_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][5]" is changed into "input_weight_14_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][5]" is changed into "input_weight_13_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][5]" is changed into "input_weight_12_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][5]" is changed into "input_weight_11_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][5]" is changed into "input_weight_10_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][5]" is changed into "input_weight_9_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][5]" is changed into "input_weight_8_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][5]" is changed into "input_weight_7_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][5]" is changed into "input_weight_6_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][5]" is changed into "input_weight_5_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][5]" is changed into "input_weight_4_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][5]" is changed into "input_weight_3_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][5]" is changed into "input_weight_2_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][5]" is changed into "input_weight_1_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][5]" is changed into "input_weight_0_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][4]" is changed into "input_weight_14_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][4]" is changed into "input_weight_13_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][4]" is changed into "input_weight_12_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][4]" is changed into "input_weight_11_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][4]" is changed into "input_weight_10_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][4]" is changed into "input_weight_9_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][4]" is changed into "input_weight_8_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][4]" is changed into "input_weight_7_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][4]" is changed into "input_weight_6_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][4]" is changed into "input_weight_5_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][4]" is changed into "input_weight_4_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][4]" is changed into "input_weight_3_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][4]" is changed into "input_weight_2_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][4]" is changed into "input_weight_1_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][4]" is changed into "input_weight_0_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][3]" is changed into "input_weight_14_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][3]" is changed into "input_weight_13_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][3]" is changed into "input_weight_12_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][3]" is changed into "input_weight_11_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][3]" is changed into "input_weight_10_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][3]" is changed into "input_weight_9_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][3]" is changed into "input_weight_8_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][3]" is changed into "input_weight_7_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][3]" is changed into "input_weight_6_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][3]" is changed into "input_weight_5_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][3]" is changed into "input_weight_4_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][3]" is changed into "input_weight_3_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][3]" is changed into "input_weight_2_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][3]" is changed into "input_weight_1_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][3]" is changed into "input_weight_0_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][2]" is changed into "input_weight_14_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][2]" is changed into "input_weight_13_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][2]" is changed into "input_weight_12_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][2]" is changed into "input_weight_11_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][2]" is changed into "input_weight_10_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][2]" is changed into "input_weight_9_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][2]" is changed into "input_weight_8_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][2]" is changed into "input_weight_7_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][2]" is changed into "input_weight_6_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][2]" is changed into "input_weight_5_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][2]" is changed into "input_weight_4_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][2]" is changed into "input_weight_3_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][2]" is changed into "input_weight_2_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][2]" is changed into "input_weight_1_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][2]" is changed into "input_weight_0_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][1]" is changed into "input_weight_14_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][1]" is changed into "input_weight_13_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][1]" is changed into "input_weight_12_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][1]" is changed into "input_weight_11_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][1]" is changed into "input_weight_10_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][1]" is changed into "input_weight_9_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][1]" is changed into "input_weight_8_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][1]" is changed into "input_weight_7_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][1]" is changed into "input_weight_6_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][1]" is changed into "input_weight_5_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][1]" is changed into "input_weight_4_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][1]" is changed into "input_weight_3_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][1]" is changed into "input_weight_2_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][1]" is changed into "input_weight_1_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][1]" is changed into "input_weight_0_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[14][0]" is changed into "input_weight_14_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[13][0]" is changed into "input_weight_13_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[12][0]" is changed into "input_weight_12_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[11][0]" is changed into "input_weight_11_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[10][0]" is changed into "input_weight_10_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[9][0]" is changed into "input_weight_9_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[8][0]" is changed into "input_weight_8_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[7][0]" is changed into "input_weight_7_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[6][0]" is changed into "input_weight_6_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[5][0]" is changed into "input_weight_5_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[4][0]" is changed into "input_weight_4_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[3][0]" is changed into "input_weight_3_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[2][0]" is changed into "input_weight_2_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[1][0]" is changed into "input_weight_1_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[0][0]" is changed into "input_weight_0_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][0]" is changed into "input_weight_15_0" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][1]" is changed into "input_weight_15_1" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][2]" is changed into "input_weight_15_2" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][3]" is changed into "input_weight_15_3" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][4]" is changed into "input_weight_15_4" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][5]" is changed into "input_weight_15_5" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][6]" is changed into "input_weight_15_6" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][7]" is changed into "input_weight_15_7" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][8]" is changed into "input_weight_15_8" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][9]" is changed into "input_weight_15_9" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][10]" is changed into "input_weight_15_10" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][11]" is changed into "input_weight_15_11" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][12]" is changed into "input_weight_15_12" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][13]" is changed into "input_weight_15_13" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][14]" is changed into "input_weight_15_14" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204001): Port "input_weight[15][15]" is changed into "input_weight_15_15" because it's a member of 2-D array port "input_weight" File: C:/Hanpham/BK/THUC TAP/TTNT_1/TTNT_1.sv Line: 6
+Info (204019): Generated file TTNT_1.vo in folder "C:/Hanpham/BK/THUC TAP/TTNT_1/simulation/questa/" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4746 megabytes
+    Info: Processing ended: Mon Jun  2 11:33:47 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,25 @@
+module LIF #(
+    parameter int THRESHOLD = 1000,
+    parameter int BETA_SHIFT = 1
+)(
+    input  logic        clk,
+    input  logic        rst,
+    input  logic [31:0] input_current,
+    output logic        spike,
+    output logic [31:0] membrane_potential
+);
+    always_ff @(posedge clk or posedge rst) begin
+        if (rst) begin
+            membrane_potential <= 0;
+            spike <= 0;
+        end else begin
+            membrane_potential <= (membrane_potential >> BETA_SHIFT) + input_current;
+            if (membrane_potential >= THRESHOLD) begin
+                spike <= 1;
+                membrane_potential <= 0;
+            end else begin
+                spike <= 0;
+            end
+        end
+    end
+endmodule

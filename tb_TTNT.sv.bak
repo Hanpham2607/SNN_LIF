@@ -1,0 +1,69 @@
+`timescale 1ns / 1ps
+
+module tb_TTNT;
+
+    // Clock and reset
+    logic clk;
+    logic rst;
+
+    // Inputs to DUT
+    logic [79:0] input_data;
+    logic [79:0] weight_data;
+
+    // Output from DUT
+    logic [1:0] result_out;
+
+    // Instantiate DUT
+    TTNT_1 dut (
+        .clk(clk),
+        .rst(rst),
+        .input_data(input_data),
+        .weight_data(weight_data),
+        .result_out(result_out)
+    );
+
+    // Clock generation
+    always #5 clk = ~clk; // 100MHz clock (10ns period)
+
+    // Task to apply input pattern
+    task apply_input(logic [79:0] in_data, logic [79:0] wt_data);
+        input_data = in_data;
+        weight_data = wt_data;
+    endtask
+
+    initial begin
+        // Initial states
+        clk = 0;
+        rst = 1;
+        input_data = 0;
+        weight_data = 0;
+
+        // Wait a few cycles then release reset
+        #20;
+        rst = 0;
+
+        // Wait for system to settle
+        #20;
+
+        // Test vector 1
+        apply_input(80'h000102030405060708, 80'h010101010101010101);
+        #100;
+
+        // Test vector 2
+        apply_input(80'h0A0B0C0D0E0F101112, 80'h020202020202020202);
+        #100;
+
+        // Test vector 3 (all zero input)
+        apply_input(80'h000000000000000000, 80'h010101010101010101);
+        #100;
+
+        // Test vector 4 (all ones)
+        apply_input(80'hFFFFFFFFFFFFFFFFFF, 80'h010101010101010101);
+        #100;
+
+        // Done
+        $display("Test completed.");
+        $finish;
+    end
+
+endmodule
