@@ -1,5 +1,4 @@
 # SNN_LIF
-# SNN_LIF Project
 
 This project implements a **Spiking Neural Network (SNN)** on FPGA, utilizing the **Leaky Integrate-and-Fire (LIF)** neuron model.
 
