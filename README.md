@@ -18,8 +18,8 @@ The design is structured into the following core modules:
 ![SNN Architecture](SNN_LIF.jpg)
 
 ## Data Flow
-1.  **Input Processing:** Input spikes and weights are fetched from memory and processed by the `cascaded_adder` to compute the weighted sum.
-2.  **Neuron Update:** The `lif_neuron` module receives the sum, updates the membrane potential (Integrated & Leak), and checks against the threshold ($V_{thr}$).
+1.  **Input Processing:** Input spikes and weights are fetched from memory and processed by the `cas_adder` to compute the weighted sum.
+2.  **Neuron Update:** The `LIF` module receives the sum, updates the membrane potential (Integrated & Leak), and checks against the threshold ($V_{thr}$).
 3.  **Output Generation:** If $V_{mem} \ge V_{thr}$, a spike (1-bit) is generated, and the potential is reset. The result is stored in the output memory.
 
 ## Simulation & Synthesis
